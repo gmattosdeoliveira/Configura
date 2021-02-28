@@ -1,0 +1,99 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    _border: 0.5px solid red
+}
+@font-face {
+    font-family: 'Aquire Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Aquire Regular'), url('fonts/Aquire-BW0ox.woff') format('woff');
+}
+@font-face {
+    font-family: 'Aquire Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Aquire Light'), url('fonts/AquireLight-YzE0o.woff') format('woff');
+}    
+@font-face {
+    font-family: 'Aquire Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Aquire Bold'), url('fonts/AquireBold-8Ma60.woff') format('woff');
+}
+body {
+    background-image: url("img/logo.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+    background-size: cover;
+    font-family: "Abel";
+    letter-spacing: 3px;
+    color: whitesmoke;
+    background-color: #261b41;
+    text-align: center;
+}
+nav {
+    position: fixed;    
+    background-color: #1d1d1f;
+    text-align: center;
+    width: 100vw;
+    padding: 7px;   
+}
+ul {
+    font-family: "Aquire Light";
+    font-size: small;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+a {
+    padding: 9px;
+    font-size: larger;
+    text-decoration: none;
+    color: whitesmoke;
+}
+li a:hover {
+    color: #1d1d1f;
+    background-color: whitesmoke     
+}
+header {
+    height: 100vh;
+    padding-top: 20vh;
+    padding-right: 30vw;
+}
+header h1 {
+    font-size: 10vw;
+}
+header h2 {
+    font-size: 4vw;
+}
+h1 {
+    font-family: "Aquire Light";
+    color: #1d8fc7;
+}
+h2 {
+    display:inline-block;
+    padding: 0px 30px;
+    font-size: 18px;
+    font-weight: 300;
+}
+section {
+    background-color: rgba(0,0,0,0.5);
+    width: 88vw;
+    height: 100vh;
+    margin: 40px auto;
+    padding: 50px auto;
+    }
+section h1 {
+    padding: 40px 0 10px;
+}
+.imgclientes {
+    margin: 5px;
+    width: 250px;
+    opacity: 0.4;
+}
+img:hover {
+    opacity: 1;
+}
